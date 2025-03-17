@@ -22,8 +22,16 @@ This page contains list of examples using Express.
 - [route-separation](./route-separation) - Organizing routes per each resource
 - [search](./search) - Search API
 - [session](./session) - User sessions
+- [simplest](simplest)
+  - simplest case
 - [static-files](./static-files) - Serving static files
 - [vhost](./vhost) - Working with virtual hosts
 - [view-constructor](./view-constructor) - Rendering views dynamically
 - [view-locals](./view-locals) - Saving data in request object between middleware calls
 - [web-service](./web-service) - Simple API service
+
+## How to run EACH example?
+* | root,
+  * `npm install`
+  * `node exampleFolderName`
+    * _Example:_ `node auth`
